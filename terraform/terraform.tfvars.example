@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in your own values.
+# terraform.tfvars should NOT be committed to git (see .gitignore below).
+
+# Run `curl -s ifconfig.me` to get your current public IP, then append /32
+admin_cidr = "203.0.113.42/32"
+
+vpc_id   = "vpc-0782b1b3214313531"
+key_name = "devOps"
